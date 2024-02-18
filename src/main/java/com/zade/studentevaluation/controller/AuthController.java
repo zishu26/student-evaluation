@@ -17,6 +17,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin("http://localhost:3000")
 @RequestMapping("/auth")
 public class AuthController {
 
